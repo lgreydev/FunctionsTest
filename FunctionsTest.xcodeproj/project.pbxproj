@@ -14,6 +14,7 @@
 		5EEF1B982A7451A9005F6D9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EEF1B972A7451A9005F6D9B /* Assets.xcassets */; };
 		5EEF1B9B2A7451A9005F6D9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EEF1B992A7451A9005F6D9B /* LaunchScreen.storyboard */; };
 		5EEF1B9E2A7451A9005F6D9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF1B9D2A7451A9005F6D9B /* main.m */; };
+		5EEF1BA92A7451EA005F6D9B /* SLParentClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF1BA82A7451EA005F6D9B /* SLParentClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		5EEF1B9A2A7451A9005F6D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EEF1B9C2A7451A9005F6D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EEF1B9D2A7451A9005F6D9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EEF1BA72A7451EA005F6D9B /* SLParentClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLParentClass.h; sourceTree = "<group>"; };
+		5EEF1BA82A7451EA005F6D9B /* SLParentClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLParentClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 		5EEF1B8A2A7451A8005F6D9B /* FunctionsTest */ = {
 			isa = PBXGroup;
 			children = (
+				5EEF1BA72A7451EA005F6D9B /* SLParentClass.h */,
+				5EEF1BA82A7451EA005F6D9B /* SLParentClass.m */,
 				5EEF1B8B2A7451A8005F6D9B /* AppDelegate.h */,
 				5EEF1B8C2A7451A8005F6D9B /* AppDelegate.m */,
 				5EEF1B8E2A7451A8005F6D9B /* SceneDelegate.h */,
@@ -146,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EEF1BA92A7451EA005F6D9B /* SLParentClass.m in Sources */,
 				5EEF1B932A7451A8005F6D9B /* ViewController.m in Sources */,
 				5EEF1B8D2A7451A8005F6D9B /* AppDelegate.m in Sources */,
 				5EEF1B9E2A7451A9005F6D9B /* main.m in Sources */,
