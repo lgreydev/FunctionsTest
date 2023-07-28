@@ -13,4 +13,12 @@
     NSLog(@"Parent say hello!");
 }
 
+- (void) say:(NSString*) string {
+    NSLog(@"%@", string);
+}
+
+- (void) say:(NSString*) string and:(NSString*) string2 {
+    NSLog(@"%@, %@", string, string2);
+}
+
 @end

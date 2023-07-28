@@ -17,12 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    
-    
     SLParentClass* parent  = [[SLParentClass alloc] init];
     
     [parent sayHello];
+    [parent say:@"How are you?"];
+    [parent say:@"I was worried about you" and:@"where have you been?"];
     
     return YES;
 }

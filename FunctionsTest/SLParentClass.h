@@ -10,6 +10,8 @@
 @interface SLParentClass: NSObject
 
 - (void) sayHello;
+- (void) say:(NSString*) string;
+- (void) say:(NSString*) string and:(NSString*) string2;
 
 @end
 
