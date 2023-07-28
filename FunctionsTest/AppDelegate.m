@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SLParentClass.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    
+    SLParentClass* parent  = [[SLParentClass alloc] init];
+    
+    [parent sayHello];
+    
     return YES;
 }
 

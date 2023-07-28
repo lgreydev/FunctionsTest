@@ -9,4 +9,8 @@
 
 @implementation SLParentClass
 
+- (void) sayHello {
+    NSLog(@"Parent say hello!");
+}
+
 @end

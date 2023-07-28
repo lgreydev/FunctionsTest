@@ -9,6 +9,8 @@
 
 @interface SLParentClass: NSObject
 
+- (void) sayHello;
+
 @end
 
 
