@@ -9,6 +9,11 @@
 
 @implementation SLParentClass
 
+
++ (void) whoAreYou {
+    NSLog(@"I'm SLParentClass");
+}
+
 - (void) sayHello {
     NSLog(@"Parent say hello!");
 }
@@ -19,6 +24,10 @@
 
 - (void) say:(NSString*) string and:(NSString*) string2 {
     NSLog(@"%@, %@", string, string2);
+}
+
+- (NSString*) saySomething {
+    return @"WoW!";
 }
 
 @end

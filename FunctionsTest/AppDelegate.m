@@ -23,6 +23,10 @@
     [parent say:@"How are you?"];
     [parent say:@"I was worried about you" and:@"where have you been?"];
     
+    NSLog(@"%@", [parent saySomething]);
+    
+    [SLParentClass whoAreYou];
+    
     return YES;
 }
 
