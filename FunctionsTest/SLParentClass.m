@@ -9,6 +9,14 @@
 
 @implementation SLParentClass
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        NSLog(@"initialize class");
+    }
+    return self;
+}
 
 + (void) whoAreYou {
     NSLog(@"I'm SLParentClass");

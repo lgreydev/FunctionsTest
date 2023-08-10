@@ -9,8 +9,8 @@
 
 @implementation SLChildClass
 
-- (NSString*) saySomething {
-    return @"Something!";
-}
+
+
+
 
 @end
