@@ -26,8 +26,15 @@
     NSLog(@"%@, %@", string, string2);
 }
 
+- (NSString*) sayDate {
+    return [NSString stringWithFormat:@"%@", [NSDate date]];
+}
+
 - (NSString*) saySomething {
-    return @"WoW!";
+    
+    NSString* string = [self sayDate];
+    
+    return string;
 }
 
 @end

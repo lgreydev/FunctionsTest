@@ -6,7 +6,8 @@
 //
 
 #import "AppDelegate.h"
-#import "SLParentClass.h"
+//#import "SLParentClass.h"
+#import "SLChildClass.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    SLParentClass* parent  = [[SLParentClass alloc] init];
+    SLChildClass* parent  = [[SLChildClass alloc] init];
     
     [parent sayHello];
     [parent say:@"How are you?"];
@@ -25,7 +26,7 @@
     
     NSLog(@"%@", [parent saySomething]);
     
-    [SLParentClass whoAreYou];
+    [SLChildClass whoAreYou];
     
     return YES;
 }

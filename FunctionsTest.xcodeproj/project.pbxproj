@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E507D472A8569A500DB9820 /* SLChildClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E507D462A8569A500DB9820 /* SLChildClass.m */; };
 		5EEF1B8D2A7451A8005F6D9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF1B8C2A7451A8005F6D9B /* AppDelegate.m */; };
 		5EEF1B902A7451A8005F6D9B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF1B8F2A7451A8005F6D9B /* SceneDelegate.m */; };
 		5EEF1B932A7451A8005F6D9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF1B922A7451A8005F6D9B /* ViewController.m */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E507D452A8569A500DB9820 /* SLChildClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLChildClass.h; sourceTree = "<group>"; };
+		5E507D462A8569A500DB9820 /* SLChildClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLChildClass.m; sourceTree = "<group>"; };
 		5EEF1B882A7451A8005F6D9B /* FunctionsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunctionsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEF1B8B2A7451A8005F6D9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5EEF1B8C2A7451A8005F6D9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -66,6 +69,8 @@
 			children = (
 				5EEF1BA72A7451EA005F6D9B /* SLParentClass.h */,
 				5EEF1BA82A7451EA005F6D9B /* SLParentClass.m */,
+				5E507D452A8569A500DB9820 /* SLChildClass.h */,
+				5E507D462A8569A500DB9820 /* SLChildClass.m */,
 				5EEF1B8B2A7451A8005F6D9B /* AppDelegate.h */,
 				5EEF1B8C2A7451A8005F6D9B /* AppDelegate.m */,
 				5EEF1B8E2A7451A8005F6D9B /* SceneDelegate.h */,
@@ -153,6 +158,7 @@
 			files = (
 				5EEF1BA92A7451EA005F6D9B /* SLParentClass.m in Sources */,
 				5EEF1B932A7451A8005F6D9B /* ViewController.m in Sources */,
+				5E507D472A8569A500DB9820 /* SLChildClass.m in Sources */,
 				5EEF1B8D2A7451A8005F6D9B /* AppDelegate.m in Sources */,
 				5EEF1B9E2A7451A9005F6D9B /* main.m in Sources */,
 				5EEF1B902A7451A8005F6D9B /* SceneDelegate.m in Sources */,
