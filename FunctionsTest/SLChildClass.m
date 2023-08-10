@@ -9,8 +9,12 @@
 
 @implementation SLChildClass
 
-
-
-
+- (instancetype) init {
+    self = [super init];
+    if (self) {
+        NSLog(@"Init Child Class");
+    }
+    return self;
+}
 
 @end

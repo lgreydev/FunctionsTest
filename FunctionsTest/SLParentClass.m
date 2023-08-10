@@ -9,21 +9,20 @@
 
 @implementation SLParentClass
 
-- (instancetype)init
-{
+- (instancetype)init {
     self = [super init];
     if (self) {
-        NSLog(@"initialize class");
+        NSLog(@"Init Parent Class");
     }
     return self;
 }
 
 + (void) whoAreYou {
-    NSLog(@"I'm SLParentClass");
+    NSLog(@"I'm SLParentClass %@", self);
 }
 
 - (void) sayHello {
-    NSLog(@"Parent say hello!");
+    NSLog(@"Parent say hello! %@", self);
 }
 
 - (void) say:(NSString*) string {
